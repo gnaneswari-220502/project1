@@ -3,6 +3,21 @@
     <html>
         <head>
             <title> audio and vedio </title>
+            <style>
+                table{
+                    width=60%;
+                    border-collapse:collapse;
+                    background-color:lightgreen;
+                    margin-bottom:20px;
+                }
+                td{
+                    border:2px solid blue;
+                    padding:10px;
+                    text-align:center;
+
+                }
+            </style>
+        <link rel="stylesheet" href="style.css">   
         </head>
         <body>
             <h2> audio example </h2>
@@ -13,5 +28,41 @@
             <video width="640" height="360" controls>
                <source src="video.mp4" type="video/mp4"> 
             </video> 
+            <iframe src="6G.pdf" width="600" height="300"></iframe>
+            <iframe src="https://www.youtube.com"  width="600" height="300"></iframe>
+            <!-- Table with inline css-->
+            <table style="background-color: #d6cbd3;margin-bottom:20px" >
+                <tr>
+                    <th style="border:2px solid black;padding:10px">Name</th>
+                    <th style="border:2px solid black;padding:8px">Marks</th>
+                </tr>
+                <tr>
+                    <td>aishu</td>
+                    <td>90</td>
+                </tr>
+            </table>
+            <!--Table with internal css-->
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td>Branch</td>
+                </tr>
+                <tr>
+                    <td>suvarna</td>
+                    <td>CSE</td>
+                </tr>
+            </table>
+            <table class="external">
+                <tr id="kk">
+                    <th>Name</th>
+                    <th>Address</th>
+                </tr>
+                <tr id="aa">
+                    <td>Arya</td>
+                    <td>Haryana</td>
+
+                </tr>
+
+            </table>
         </body>
     </html>

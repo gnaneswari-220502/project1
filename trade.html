@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>TradeX Logistics</title>
+<link rel="stylesheet" href="logistics.css">
+</head>
+
+<body>
+
+
+<header class="navbar">
+  <h1 class="logo">Trade<span>X</span></h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Trading</a>
+    <a href="#">Logistics</a>
+    <a href="#">AI Tools</a>
+    <a href="#" class="btn">Get Started</a>
+  </nav>
+</header>
+
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Global Trading & Smart Logistics</h2>
+    <p>AI-powered trade execution, real-time shipment intelligence, and futuristic logistics planning.</p>
+    <button>Explore Platform</button>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <h3>98.7%</h3>
+      <p>On-Time Delivery</p>
+    </div>
+    <div class="stat">
+      <h3>120+</h3>
+      <p>Countries Connected</p>
+    </div>
+    <div class="stat">
+      <h3>AI-Driven</h3>
+      <p>Trade Decisions</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="services">
+  <h2>Our Core Services</h2>
+
+  <div class="service-grid">
+
+    <div class="card">
+      <i class="fas fa-ship"></i>
+      <h3>Global Shipping</h3>
+      <p>End-to-end maritime, air, and land freight solutions.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-chart-line"></i>
+      <h3>Trade Intelligence</h3>
+      <p>Predictive analytics for price movements & demand.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-warehouse"></i>
+      <h3>Smart Warehousing</h3>
+      <p>Automated storage with demand forecasting.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="future">
+  <h2>Next-Gen Features</h2>
+
+  <div class="future-box">
+    <div>
+      <i class="fas fa-brain"></i>
+      <h4>AI Route Optimizer</h4>
+      <p>Visualizes least-risk & least-carbon trade routes.</p>
+    </div>
+
+    <div>
+      <i class="fas fa-shield-alt"></i>
+      <h4>Live Trust Meter</h4>
+      <p>Shows supplier reliability score in real time.</p>
+    </div>
+
+    <div>
+      <i class="fas fa-globe"></i>
+      <h4>Geo-Trade Heatmap</h4>
+      <p>Interactive world map of trade volume.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="cta">
+  <h2>Ready to Trade Smarter?</h2>
+  <button>Launch Dashboard</button>
+</section>
+<section class="contact">
+  <div class="form-container">
+    <form class="contact-form" enctype="multipart/form-data">
+      <h2>Request a Quote / Contact Us</h2>
+      <p>Fill out the form and we’ll get back to you promptly.</p>
+
+      
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="+1 123 456 7890" required />
+
+      <label for="company">Company Name</label>
+      <input type="text" id="company" name="company" placeholder="Your company name" />
+
+      <label for="role">Job Title / Role</label>
+      <input type="text" id="role" name="role" placeholder="Your role in the company" />
+
+  
+      <label for="service">Service Type</label>
+      <select id="service" name="service" required>
+        <option value="">Select Service</option>
+        <option value="trading">Trading</option>
+        <option value="shipping">Shipping</option>
+        <option value="ai-tools">AI Tools</option>
+        <option value="supply-chain">Supply Chain Management</option>
+        <option value="customs">Customs Clearance</option>
+      </select>
+
+      <label for="trade-volume">Trade Volume / Shipment Size</label>
+      <input type="text" id="trade-volume" name="trade-volume" placeholder="E.g., 1000 units or 2000 kg" />
+
+      <label for="origin">Origin Country / City</label>
+      <input type="text" id="origin" name="origin" placeholder="City, Country" />
+
+      <label for="destination">Destination Country / City</label>
+      <input type="text" id="destination" name="destination" placeholder="City, Country" />
+
+      <label>Preferred Shipping Method</label>
+      <div class="radio-group">
+        <input type="radio" id="air" name="shipping" value="Air" required />
+        <label for="air">Air</label>
+
+        <input type="radio" id="sea" name="shipping" value="Sea" />
+        <label for="sea">Sea</label>
+
+        <input type="radio" id="rail" name="shipping" value="Rail" />
+        <label for="rail">Rail</label>
+
+        <input type="radio" id="road" name="shipping" value="Road" />
+        <label for="road">Road</label>
+      </div>
+
+      <label for="product-category">Product Category</label>
+      <select id="product-category" name="product-category">
+        <option value="">Select Category</option>
+        <option value="electronics">Electronics</option>
+        <option value="textiles">Textiles</option>
+        <option value="chemicals">Chemicals</option>
+        <option value="automotive">Automotive</option>
+        <option value="food">Food</option>
+      </select>
+
+      <label for="delivery-date">Expected Delivery Date</label>
+      <input type="date" id="delivery-date" name="delivery-date" />
+
+      <label for="urgency">Urgency Level</label>
+      <select id="urgency" name="urgency">
+        <option value="">Select</option>
+        <option value="standard">Standard</option>
+        <option value="express">Express</option>
+        <option value="priority">Priority</option>
+      </select>
+
+      
+      <label for="product-image">Upload Product Image</label>
+      <input type="file" id="product-image" name="product-image" accept="image/*" />
+
+      <label for="invoice">Upload Invoice / Document (PDF/DOC)</label>
+      <input type="file" id="invoice" name="invoice" accept=".pdf,.doc,.docx" />
+
+      <label for="shipping-doc">Upload Shipping / Customs Form</label>
+      <input type="file" id="shipping-doc" name="shipping-doc" accept=".pdf,.doc,.docx" />
+
+    
+      <label for="message">Additional Message / Notes</label>
+      <textarea id="message" name="message" rows="5" placeholder="Any additional info..."></textarea>
+
+      <label for="contact-method">Preferred Contact Method</label>
+      <select id="contact-method" name="contact-method">
+        <option value="">Select</option>
+        <option value="email">Email</option>
+        <option value="phone">Phone</option>
+        <option value="whatsapp">WhatsApp</option>
+      </select>
+
+      <label for="contact-time">Best Time to Contact</label>
+      <input type="time" id="contact-time" name="contact-time" />
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="newsletter" name="newsletter" />
+        <label for="newsletter">Subscribe to newsletter / updates</label>
+      </div>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="terms" name="terms" required />
+        <label for="terms">I agree to the Terms & Privacy Policy</label>
+      </div>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+</section>
+
+
+<footer>
+  <p align="center">2025 TradeX Logistics. Designed for the Future.</p>
+</footer>
+
+</body>
+</html>
